@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Learner Hub" duration-ms="60292" started-at="2023-06-18T18:37:33 IST" finished-at="2023-06-18T18:38:33 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Login" duration-ms="60292" started-at="2023-06-18T18:37:33 IST" finished-at="2023-06-18T18:38:33 IST">
+      <class name="com.learnerhub.testcases.TC002_Register">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="setValues" is-config="true" duration-ms="1" started-at="2023-06-18T18:37:33 IST" finished-at="2023-06-18T18:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="setUpClass" is-config="true" duration-ms="781" started-at="2023-06-18T18:37:33 IST" finished-at="2023-06-18T18:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="startTestCase" is-config="true" duration-ms="19" started-at="2023-06-18T18:37:34 IST" finished-at="2023-06-18T18:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="preCondition" is-config="true" duration-ms="5183" started-at="2023-06-18T18:37:34 IST" finished-at="2023-06-18T18:37:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runRegister()[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="runRegister" duration-ms="51675" started-at="2023-06-18T18:37:39 IST" finished-at="2023-06-18T18:38:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRegister -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="postCondition" is-config="true" duration-ms="2173" started-at="2023-06-18T18:38:31 IST" finished-at="2023-06-18T18:38:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="updateResult()[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="updateResult" is-config="true" duration-ms="191" started-at="2023-06-18T18:38:33 IST" finished-at="2023-06-18T18:38:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.learnerhub.testcases.TC002_Register@5fdba6f9]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2023-06-18T18:38:33 IST" finished-at="2023-06-18T18:38:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.learnerhub.testcases.TC002_Register -->
+      <class name="com.learnerhub.testcases.TC001_JustLogin">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="startReport" is-config="true" duration-ms="688" started-at="2023-06-18T18:37:32 IST" finished-at="2023-06-18T18:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="setValues" is-config="true" duration-ms="2" started-at="2023-06-18T18:37:33 IST" finished-at="2023-06-18T18:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="setUpClass" is-config="true" duration-ms="792" started-at="2023-06-18T18:37:33 IST" finished-at="2023-06-18T18:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="startTestCase" is-config="true" duration-ms="19" started-at="2023-06-18T18:37:34 IST" finished-at="2023-06-18T18:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="preCondition" is-config="true" duration-ms="5253" started-at="2023-06-18T18:37:34 IST" finished-at="2023-06-18T18:37:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogin()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="runLogin" duration-ms="12045" started-at="2023-06-18T18:37:39 IST" finished-at="2023-06-18T18:37:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="postCondition" is-config="true" duration-ms="2196" started-at="2023-06-18T18:37:51 IST" finished-at="2023-06-18T18:37:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="updateResult()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="updateResult" is-config="true" duration-ms="651" started-at="2023-06-18T18:37:53 IST" finished-at="2023-06-18T18:37:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2023-06-18T18:37:54 IST" finished-at="2023-06-18T18:37:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="endResult()[pri:0, instance:com.learnerhub.testcases.TC001_JustLogin@b3d7190]" name="endResult" is-config="true" duration-ms="121" started-at="2023-06-18T18:38:33 IST" finished-at="2023-06-18T18:38:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- com.learnerhub.testcases.TC001_JustLogin -->
+    </test> <!-- Login -->
+  </suite> <!-- Learner Hub -->
+</testng-results>
